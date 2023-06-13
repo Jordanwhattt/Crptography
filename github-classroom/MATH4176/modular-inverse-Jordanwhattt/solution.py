@@ -13,7 +13,6 @@ def extended_euclidean(a,b):
     return r_prev, s_prev, t_prev
     #
 def square_and_multiply(g,x,m):
-
     a, z = g % m, 1
     while x > 0:
         if x % 2 == 1:
